@@ -1,0 +1,106 @@
+body{
+    background-color: #FFF6E9;
+}
+nav div ul li {
+    font-size: 20px;
+}
+.main .div1 img{
+    width: 100%;
+    height: auto;
+}
+.main div div button span{
+    font-weight: bold;
+}
+.main .div2 #image1{
+    width: 100%;
+    height: 370px;
+} 
+.main .div2 .btn-1{
+    position: relative;
+    bottom: 400px;
+    right: 70px;
+}
+.main .div2 .btn-2{
+    position: relative;
+    bottom: 240px;
+    left: 400px;
+}
+.main .div2 .btn-3{
+    position: relative;
+    bottom: 390px;
+    right: 70px;
+}
+.services{
+    position: relative;
+    bottom: 300px;
+}
+.wh-pp-chose{
+    position: relative;
+    bottom: 250px;
+}
+.menu{
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+}
+.box{
+    position: relative;
+    bottom: 100px;
+}
+.box{
+    gap: 10px;
+    margin-top: 10px;
+}
+.feedback div img{
+    width: 100%;
+    height: auto;
+}
+.feedback .row .div1 h1 span{
+    color: red;
+}
+.contact #div1 h1 span{
+    color: red;
+}
+.contact #div2 input{
+    border: 1px solid red;
+    font-size: 20px;
+    height: 40px;
+    background: none;
+}
+.services .row div a{
+    text-decoration: none;
+    color: black;
+}
+.services .row div a:hover{
+    text-decoration: underline;
+    color: red;
+}
+footer .row div span{
+    font-weight: bold;
+    margin-left: 12px;
+}
+footer .row div ul li a:hover{
+    text-decoration: underline;
+    color: red;
+}
+.footer a{
+   color: black;
+}
+@media only screen and (max-width: 768px) {
+    .wh-pp-chose .row .div1 img{
+        width: 100%;
+        height: auto;
+    }
+    .box .div1 img{
+        width: 100%;
+        height: auto;
+    }
+    .contact div img{
+        width: 100%;
+        height: auto;
+    }
+    .main .div2 .btn-2{
+        position: relative;
+        left: 200px;
+    }
+}
